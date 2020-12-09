@@ -1,6 +1,33 @@
 Documentação socket de rede TCP
 
 
+************* COMO USAR ******************
+
+Para usar esses sockets é bem simples primeiro execute o socket:
+
+- servidor_Socke.py
+
+para o servidor ficar escutando, ou seja, esperando que o cliente estabeleça a comunicação
+
+depois execute o socket:
+
+ - cliente_socke.py
+
+e envie sua mensagem
+
+Para executar esses programas pelo terminal é simples, basta usar os comandos:
+
+Para o servidor_Socke.py
+
+chmod 744 servidor_Socke.py   # para dá permissão
+./servidor_Socke.py           # para executar
+
+Para o cliente_socke.py
+
+chmod 744 cliente_socke.py   # para dá permissão
+./cliente_socke.py           # para executar
+
+
 Funcionamento do software
 
  - Primeiro, o servidor precisa criar um socket especificando qual o tipo de endereço(IPV4/IPV6) será usado e o tipo de socket (TCP/UDP)
